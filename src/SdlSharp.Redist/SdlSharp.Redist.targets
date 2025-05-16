@@ -3,18 +3,18 @@
 		<When Condition="'$(PlatformTarget)' == 'x86'">
 			<ItemGroup>
 				<NativeLibs Include="$(MSBuildThisFileDirectory)\x86\README-SDL.txt" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
-				<NativeLibs Include="$(MSBuildThisFileDirectory)\x86\lib\x86\SDL2.dll" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
+				<NativeLibs Include="$(MSBuildThisFileDirectory)\x86\SDL2.dll" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
 
-				<NativeLibs Include="$(MSBuildThisFileDirectory)\x86\lib\x86\SDL3.dll" Condition="'$(SdlVersion)' == '3'" />
+				<NativeLibs Include="$(MSBuildThisFileDirectory)\x86\SDL3.dll" Condition="'$(SdlVersion)' == '3'" />
 
-				<NativeLibs Include="$(MSBuildThisFileDirectory)\x86\lib\x86\SDL2_image.dll" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
+				<NativeLibs Include="$(MSBuildThisFileDirectory)\x86\SDL2_image.dll" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
 
-				<NativeLibs Include="$(MSBuildThisFileDirectory)\x86\lib\x86\SDL2_mixer.dll" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
+				<NativeLibs Include="$(MSBuildThisFileDirectory)\x86\SDL2_mixer.dll" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
 
-				<NativeLibs Include="$(MSBuildThisFileDirectory)\x86\lib\x86\LICENSE.freetype.txt" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
-				<NativeLibs Include="$(MSBuildThisFileDirectory)\x86\lib\x86\LICENSE.harfbuzz.txt" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
-				<NativeLibs Include="$(MSBuildThisFileDirectory)\x86\lib\x86\LICENSE.zlib.txt" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
-				<NativeLibs Include="$(MSBuildThisFileDirectory)\x86\lib\x86\SDL2_ttf.dll" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
+				<NativeLibs Include="$(MSBuildThisFileDirectory)\x86\LICENSE.freetype.txt" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
+				<NativeLibs Include="$(MSBuildThisFileDirectory)\x86\LICENSE.harfbuzz.txt" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
+				<NativeLibs Include="$(MSBuildThisFileDirectory)\x86\LICENSE.zlib.txt" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
+				<NativeLibs Include="$(MSBuildThisFileDirectory)\x86\SDL2_ttf.dll" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
 
 				<None Include="@(NativeLibs)">
 					<Link>%(RecursiveDir)%(FileName)%(Extension)</Link>
@@ -25,19 +25,19 @@
 		</When>
 		<When Condition="'$(PlatformTarget)' == 'x64'">
 			<ItemGroup>
-				<NativeLibs Include="$(MSBuildThisFileDirectory)\x86\README-SDL.txt" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
-				<NativeLibs Include="$(MSBuildThisFileDirectory)\x86\lib\x64\SDL2.dll" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
+				<NativeLibs Include="$(MSBuildThisFileDirectory)\x64\README-SDL.txt" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
+				<NativeLibs Include="$(MSBuildThisFileDirectory)\x64\SDL2.dll" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
 
-				<NativeLibs Include="$(MSBuildThisFileDirectory)\x86\lib\x64\SDL3.dll" Condition="'$(SdlVersion)' == '3'" />
+				<NativeLibs Include="$(MSBuildThisFileDirectory)\x64\SDL3.dll" Condition="'$(SdlVersion)' == '3'" />
 
-				<NativeLibs Include="$(MSBuildThisFileDirectory)\x86\lib\x64\SDL2_image.dll" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
+				<NativeLibs Include="$(MSBuildThisFileDirectory)\x64\SDL2_image.dll" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
 
-				<NativeLibs Include="$(MSBuildThisFileDirectory)\x86\lib\x64\SDL2_mixer.dll" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
+				<NativeLibs Include="$(MSBuildThisFileDirectory)\x64\SDL2_mixer.dll" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
 
-				<NativeLibs Include="$(MSBuildThisFileDirectory)\x86\lib\x64\LICENSE.freetype.txt" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
-				<NativeLibs Include="$(MSBuildThisFileDirectory)\x86\lib\x64\LICENSE.harfbuzz.txt" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
-				<NativeLibs Include="$(MSBuildThisFileDirectory)\x86\lib\x64\LICENSE.zlib.txt" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
-				<NativeLibs Include="$(MSBuildThisFileDirectory)\x86\lib\x64\SDL2_ttf.dll" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
+				<NativeLibs Include="$(MSBuildThisFileDirectory)\x64\LICENSE.freetype.txt" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
+				<NativeLibs Include="$(MSBuildThisFileDirectory)\x64\LICENSE.harfbuzz.txt" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
+				<NativeLibs Include="$(MSBuildThisFileDirectory)\x64\LICENSE.zlib.txt" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
+				<NativeLibs Include="$(MSBuildThisFileDirectory)\x64\SDL2_ttf.dll" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
 
 				<None Include="@(NativeLibs)">
 					<Link>%(RecursiveDir)%(FileName)%(Extension)</Link>
