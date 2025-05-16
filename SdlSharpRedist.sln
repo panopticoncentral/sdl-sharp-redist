@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SdlSharp.Redist", "src\SdlSharp.Redist\SdlSharp.Redist.csproj", "{2D3D68F0-ADE9-408A-9AF2-CBE4408C388E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D3D68F0-ADE9-408A-9AF2-CBE4408C388E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D3D68F0-ADE9-408A-9AF2-CBE4408C388E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D3D68F0-ADE9-408A-9AF2-CBE4408C388E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D3D68F0-ADE9-408A-9AF2-CBE4408C388E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD118769-C6C1-4143-8572-DBB43A8E9A83}
+	EndGlobalSection
+EndGlobal
