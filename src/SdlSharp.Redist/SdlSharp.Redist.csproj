@@ -65,8 +65,18 @@
 			<PackagePath>\build\x86</PackagePath>
 			<Visible>false</Visible>
 		</Content>
+		<Content Include="$(IntermediateOutputPath)SDL3-$(SDL3Version)\lib\x86\SDL3.pdb">
+			<Pack>true</Pack>
+			<PackagePath>\build\x86</PackagePath>
+			<Visible>false</Visible>
+		</Content>
 		<!-- SDL3 x64 -->
 		<Content Include="$(IntermediateOutputPath)SDL3-$(SDL3Version)\lib\x64\SDL3.dll">
+			<Pack>true</Pack>
+			<PackagePath>\build\x64</PackagePath>
+			<Visible>false</Visible>
+		</Content>
+		<Content Include="$(IntermediateOutputPath)SDL3-$(SDL3Version)\lib\x64\SDL3.pdb">
 			<Pack>true</Pack>
 			<PackagePath>\build\x64</PackagePath>
 			<Visible>false</Visible>
