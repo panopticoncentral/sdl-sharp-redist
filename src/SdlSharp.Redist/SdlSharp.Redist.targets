@@ -6,6 +6,7 @@
 				<NativeLibs Include="$(MSBuildThisFileDirectory)\x86\SDL2.dll" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
 
 				<NativeLibs Include="$(MSBuildThisFileDirectory)\x86\SDL3.dll" Condition="'$(SdlVersion)' == '3'" />
+				<NativeLibs Include="$(MSBuildThisFileDirectory)\x86\SDL3.pdb" Condition="'$(SdlVersion)' == '3' and '$(Configuration)' == 'Debug'" />
 
 				<NativeLibs Include="$(MSBuildThisFileDirectory)\x86\SDL2_image.dll" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
 
@@ -29,6 +30,7 @@
 				<NativeLibs Include="$(MSBuildThisFileDirectory)\x64\SDL2.dll" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
 
 				<NativeLibs Include="$(MSBuildThisFileDirectory)\x64\SDL3.dll" Condition="'$(SdlVersion)' == '3'" />
+				<NativeLibs Include="$(MSBuildThisFileDirectory)\x64\SDL3.pdb" Condition="'$(SdlVersion)' == '3' and '$(Configuration)' == 'Debug'" />
 
 				<NativeLibs Include="$(MSBuildThisFileDirectory)\x64\SDL2_image.dll" Condition="'$(SdlVersion)' == '' or '$(SdlVersion)' == '2'" />
 
