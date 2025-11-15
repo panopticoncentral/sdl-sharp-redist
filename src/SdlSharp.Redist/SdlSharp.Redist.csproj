@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.Build.NoTargets/3.0.4">
 
 	<PropertyGroup>
-		<TargetFramework>net9.0</TargetFramework>
+		<TargetFramework>net10.0</TargetFramework>
 	</PropertyGroup>
 
 	<PropertyGroup>
@@ -16,11 +16,11 @@
 	</PropertyGroup>
 
 	<PropertyGroup>
-		<SDL2Version>2.32.6</SDL2Version>
-		<SDL3Version>3.2.12</SDL3Version>
-		<SDL2ImageVersion>2.6.2</SDL2ImageVersion>
-		<SDL2MixerVersion>2.6.2</SDL2MixerVersion>
-		<SDL2TtfVersion>2.20.1</SDL2TtfVersion>
+		<SDL2Version>2.32.10</SDL2Version>
+		<SDL3Version>3.2.26</SDL3Version>
+		<SDL2ImageVersion>2.8.8</SDL2ImageVersion>
+		<SDL2MixerVersion>2.8.1</SDL2MixerVersion>
+		<SDL2TtfVersion>2.24.0</SDL2TtfVersion>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -106,42 +106,12 @@
 			<Visible>false</Visible>
 		</Content>
 		<!-- SDL2_ttf x86 -->
-		<Content Include="$(IntermediateOutputPath)SDL2_ttf-$(SDL2TtfVersion)\lib\x86\LICENSE.freetype.txt">
-			<Pack>true</Pack>
-			<PackagePath>\build\x86</PackagePath>
-			<Visible>false</Visible>
-		</Content>
-		<Content Include="$(IntermediateOutputPath)SDL2_ttf-$(SDL2TtfVersion)\lib\x86\LICENSE.harfbuzz.txt">
-			<Pack>true</Pack>
-			<PackagePath>\build\x86</PackagePath>
-			<Visible>false</Visible>
-		</Content>
-		<Content Include="$(IntermediateOutputPath)SDL2_ttf-$(SDL2TtfVersion)\lib\x86\LICENSE.zlib.txt">
-			<Pack>true</Pack>
-			<PackagePath>\build\x86</PackagePath>
-			<Visible>false</Visible>
-		</Content>
 		<Content Include="$(IntermediateOutputPath)SDL2_ttf-$(SDL2TtfVersion)\lib\x86\SDL2_ttf.dll">
 			<Pack>true</Pack>
 			<PackagePath>\build\x86</PackagePath>
 			<Visible>false</Visible>
 		</Content>
 		<!-- SDL2_ttf x64 -->
-		<Content Include="$(IntermediateOutputPath)SDL2_ttf-$(SDL2TtfVersion)\lib\x64\LICENSE.freetype.txt">
-			<Pack>true</Pack>
-			<PackagePath>\build\x64</PackagePath>
-			<Visible>false</Visible>
-		</Content>
-		<Content Include="$(IntermediateOutputPath)SDL2_ttf-$(SDL2TtfVersion)\lib\x64\LICENSE.harfbuzz.txt">
-			<Pack>true</Pack>
-			<PackagePath>\build\x64</PackagePath>
-			<Visible>false</Visible>
-		</Content>
-		<Content Include="$(IntermediateOutputPath)SDL2_ttf-$(SDL2TtfVersion)\lib\x64\LICENSE.zlib.txt">
-			<Pack>true</Pack>
-			<PackagePath>\build\x64</PackagePath>
-			<Visible>false</Visible>
-		</Content>
 		<Content Include="$(IntermediateOutputPath)SDL2_ttf-$(SDL2TtfVersion)\lib\x64\SDL2_ttf.dll">
 			<Pack>true</Pack>
 			<PackagePath>\build\x64</PackagePath>
